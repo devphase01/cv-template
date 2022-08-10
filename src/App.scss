@@ -1,0 +1,22 @@
+.cv {
+  width: 900px;
+  height: 100vh;
+
+  margin: 0 auto;
+  padding: 3rem;
+
+  &__content-section {
+    width: 100%;
+
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__left-side {
+    flex: 1;
+  }
+
+  &__right-side {
+    flex: 1.8;
+  }
+}

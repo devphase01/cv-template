@@ -1,0 +1,70 @@
+@use '../../scss/index' as *;
+
+.cv__personal, .cv__university {
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    margin-bottom: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &-project {
+
+    &-title {
+      display: flex;
+      gap: 7px;
+
+      span {
+        width: 2px;
+        height: 12px;
+        background: gray;
+        margin-top: 4px;
+      }
+    }
+
+    &-name {
+      font-size: 16px;
+    }
+
+    &-type {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    &-timeline {
+      display: flex;
+      gap: 6px;
+
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    &-description {
+      font-weight: 300;
+      font-size: 16px;
+      margin: 8px 0;
+    }
+
+    &-gitHub {
+      a {
+        color: $green;
+        font-weight: 300;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.cv__university {
+  &-title {
+    margin-top: 2rem;
+  }
+}

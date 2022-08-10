@@ -1,0 +1,31 @@
+
+.cv__education {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  &-title {
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &-degree {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  &-school {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  &-time {
+    font-size: 12px;
+    font-weight: 500;
+
+    span {
+      user-select: none;
+    }
+  }
+}
