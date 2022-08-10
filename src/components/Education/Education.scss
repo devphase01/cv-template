@@ -1,3 +1,5 @@
+@use '../../scss/index' as *;
+
 
 .cv__education {
   display: flex;
@@ -8,11 +10,15 @@
     margin-bottom: 0.5rem;
     font-size: 24px;
     font-weight: 500;
+
+    font-family: $font-family-comforta;
   }
 
   &-degree {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
+
+    font-family: $font-family-comforta;
   }
 
   &-school {
@@ -21,7 +27,7 @@
   }
 
   &-time {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 
     span {

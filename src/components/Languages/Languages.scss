@@ -1,3 +1,4 @@
+@use '../../scss/index' as *;
 
 .cv__languages {
   display: flex;
@@ -8,6 +9,8 @@
     margin-bottom: 1rem;
     font-size: 24px;
     font-weight: 500;
+
+    font-family: $font-family-comforta;
   }
 
   &-box {

@@ -8,6 +8,8 @@
     margin-bottom: 1rem;
     font-size: 24px;
     font-weight: 500;
+
+    font-family: $font-family-comforta;
   }
 
   &-projects {
@@ -20,22 +22,25 @@
 
     &-title {
       display: flex;
+      align-items: center;
       gap: 7px;
 
       span {
         width: 2px;
         height: 12px;
         background: gray;
-        margin-top: 4px;
       }
     }
 
     &-name {
-      font-size: 16px;
+      font-size: 18px;
+      font-weight: 600;
+
+      font-family: $font-family-comforta;
     }
 
     &-type {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 500;
     }
 
@@ -44,20 +49,23 @@
       gap: 6px;
 
       font-size: 12px;
-      font-weight: 500;
+      font-weight: 600;
+      margin-top: 3px;
     }
 
     &-description {
-      font-weight: 300;
-      font-size: 16px;
+      font-weight: 400;
       margin: 8px 0;
     }
 
     &-gitHub {
+      font-weight: 600;
+      font-family: $font-family-comforta;
       a {
         color: $green;
         font-weight: 300;
         text-decoration: underline;
+        font-family: $font-family-default;
       }
     }
   }
