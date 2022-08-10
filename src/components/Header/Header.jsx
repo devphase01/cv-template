@@ -10,14 +10,14 @@ const Header = () => {
       <div className="cv__header-name">Ihor Voznyi</div>
       <div className="cv__header-position">Junior Full-Stack Developer</div>
       <div className="cv__header-contacts">
-        <a href="mailto:ihor.voznyi01@gmail.com" className="cv__header-contact email">ihor.voznyi01@gmail.com</a>
+        <a href="mailto:example@gmail.com" className="cv__header-contact email">example@gmail.com</a>
         <div className="dash" />
-        <a href="tel:0996348751" className="cv__header-contact phone">+380-99-634-8-751</a>
+        <a href="tel:00000000" className="cv__header-contact phone">+380-00-00-0-00</a>
         <div className="dash" />
-        <a href="http://maps.google.com/maps?q=Ukraine, Lviv, Zaliznychnyi district" className="cv__header-contact location" target="blank">Lviv, Ukraine</a>
+        <a href="http://maps.google.com/maps?q=England, London" className="cv__header-contact location" target="blank">London, England</a>
       </div>
       <div className="cv__header-social">
-        <a href="https://www.linkedin.com/in/ihor-voznyi-769744231/" className="cv__header-social-link" target="blank">
+        <a href="https://www.linkedin.com/" className="cv__header-social-link" target="blank">
           <BsLinkedin />
         </a>
         <div className="dash" />
@@ -25,7 +25,7 @@ const Header = () => {
           <AiFillGithub />
         </a>
         <div className="dash" />
-        <a href="hee" className="cv__header-social-link"><BsTelegram /></a>
+        <a href="somebody" className="cv__header-social-link"><BsTelegram /></a>
       </div>
     </div>
   )
