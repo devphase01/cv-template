@@ -1,13 +1,13 @@
-import './Projects.scss';
+import '../index.scss';
 
-import { personalProjects } from '../../utils/Projects';
+import { projects } from './index.constants';
 
 const Personal = () => {
   return (
     <div className="cv__personal">
       <div className="cv__personal-title">Personal Projects</div>
       <div className="cv__personal-projects">
-        {personalProjects.map(project => (
+        {projects.map(project => (
           <div className="cv__personal-project">
             <div className="cv__personal-project-title">
               <p className="cv__personal-project-name">{project.name}</p>

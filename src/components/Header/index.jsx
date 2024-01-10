@@ -1,8 +1,7 @@
-import './Header.scss';
+import './index.scss';
 
 import { AiFillGithub } from 'react-icons/ai';
 import { BsLinkedin, BsTelegram } from 'react-icons/bs';
-
 
 const Header = () => {
   return (

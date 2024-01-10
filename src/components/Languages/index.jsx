@@ -1,6 +1,6 @@
-import './Languages.scss';
+import './index.scss';
 
-import { languages } from '../../utils/Languages';
+import { languages } from './index.constants';
 
 const Languages = () => {
   return (

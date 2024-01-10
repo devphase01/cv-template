@@ -1,4 +1,4 @@
-import './Divider.scss';
+import './index.scss';
 
 const Divider = () => {
   return (

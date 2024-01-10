@@ -1,4 +1,4 @@
-import './Education.scss';
+import './index.scss';
 
 const Education = () => {
   return (

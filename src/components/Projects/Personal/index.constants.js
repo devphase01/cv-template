@@ -1,5 +1,5 @@
 
-export const personalProjects = [
+export const projects = [
   { 
     name: "EndousCloud", 
     type: "Cloud Application, MERN Stack", 
@@ -23,16 +23,5 @@ export const personalProjects = [
     timeEnd: "Jun 2022",
     description: "Be Fit helps the user find exercises for training (YouTube Videos, Gifs). Stack - React and Material UI. Implemented search content using Axios and RapidAPI.",
     gitHub: "https://github.com/devphase01/BeFit" 
-  },
-]
-
-export const universityProjects = [
-  { 
-    name: "Inweb", 
-    type: "Website checker", 
-    timeStart: "Feb 2022 ", 
-    timeEnd: "May 2022 ",
-    description: "The App checks url or domain, collects information about it and gives it back to user. Functionality based on parsing data via other web services using Puppeteer. Stack - React, Material UI, Node.js, Express.",
-    gitHub: "" 
   },
 ]

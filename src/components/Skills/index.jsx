@@ -1,6 +1,6 @@
-import './Skills.scss';
+import './index.scss';
 
-import { skills } from '../../utils/Skills';
+import { skills } from './index.constants';
 
 const Skills = () => {
   return (
