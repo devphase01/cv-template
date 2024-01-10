@@ -1,7 +1,7 @@
 export const skills = [
-  "JavaScript/ES6+", "React", 
-  "Node.js/Express.js", "Git", 
-  "Redux (Toolkit)", "MongoDB", 
-  "Material-UI", "TypeScript", 
-  "HTML/CSS", "SCSS/SASS"
-]
+  "JS", "TypeScript", ".NET", "Node.js", 
+  "Nest.js", "React", "Next.js", "Redux Toolkit", 
+  "Tailwind CSS", "SCSS/SASS",
+  "MongoDB", "PostgreSQL",
+  "Microservices", "AWS"
+];
