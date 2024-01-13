@@ -1,12 +1,13 @@
 @use '../../scss/index' as *;
 
-.cv__personal, .cv__university {
+.cv__projects, .cv__university {
   display: flex;
   flex-direction: column;
+  margin-left: 60px;
 
   &-title {
     margin-bottom: 1rem;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
 
     font-family: $font-family-comforta;
@@ -33,14 +34,14 @@
     }
 
     &-name {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
 
       font-family: $font-family-comforta;
     }
 
     &-type {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 500;
     }
 
@@ -54,9 +55,32 @@
     }
 
     &-description {
+      font-size: 14px;
+      color: rgba(0, 0, 0, .88);
+      line-height: 20px;
       font-weight: 400;
       margin: 8px 0;
     }
+
+    &-achievements {
+      margin-left: 20px;
+
+      &-title {
+        margin-bottom: 5px;
+      }
+
+      &-list {
+        margin-left: 25px;
+        list-style-type:square;
+        color: rgba(0, 0, 0, .88);
+
+        li {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+
 
     &-gitHub {
       font-weight: 600;

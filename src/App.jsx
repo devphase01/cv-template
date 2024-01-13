@@ -1,6 +1,7 @@
 import './App.scss';
 
-import { About, Divider, Skills, Education, Header, Languages, Personal, University } from './components';
+import { About, Divider, Skills, Education, Header, Languages, Projects } from './components';
+import { projects } from './components/Projects/index.constants';
 
 const App = () => {
   return (
@@ -17,12 +18,11 @@ const App = () => {
         </div>
 
         <div className="cv__right-side">
-          <Personal />
-          <University />
+          <Projects title="Experience" projects={projects} />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

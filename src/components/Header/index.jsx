@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="cv__header">
       <div className="cv__header-name">Ihor Voznyi</div>
-      <div className="cv__header-position">Junior Full-Stack Developer</div>
+      <div className="cv__header-position">Full-Stack Developer</div>
       <div className="cv__header-contacts">
         <a href="mailto:example@gmail.com" className="cv__header-contact email">example@gmail.com</a>
         <div className="dash" />

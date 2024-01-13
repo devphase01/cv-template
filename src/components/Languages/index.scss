@@ -7,7 +7,7 @@
 
   &-title {
     margin-bottom: 1rem;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
 
     font-family: $font-family-comforta;
@@ -16,11 +16,12 @@
   &-box {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 
     &-lang {
       display: flex;
       gap: 8px;
+      font-size: 14px;
 
       span {
         user-select: none;
